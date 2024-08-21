@@ -100,11 +100,20 @@ main{
     .fs-l{
         font-size: large;
     }
+    .abouts{
+        gap: 6px;
+    }
 
 }
 
 @media (max-width:500px) {
     main {
         width: 100%;
+    }
+    .abouts{
+        gap: 4px;
+    }
+    h1{
+        font-size: 24px;
     }
 }
