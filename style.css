@@ -7,7 +7,7 @@
 
 /* utility */
 .fs1{
-    font-size: 10px;
+    font-size: 13px;
 }
 .pt2{
     padding-top: 16px;
@@ -18,8 +18,8 @@
 .df{
    display: flex;
 }
-.fs-l{
-    font-size: large;
+.fs-l {
+    font-size: 20px;
 }
 
 main{
@@ -93,6 +93,12 @@ main{
     .pjdetail>ul{
         width: 90%;
         font-size: 10px;
+    }
+    .fs1{
+        font-size: 10px;
+    }
+    .fs-l{
+        font-size: large;
     }
 
 }
