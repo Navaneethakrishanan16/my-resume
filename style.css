@@ -5,8 +5,21 @@
     box-sizing: border-box;
 }
 
+/* utility */
+.fs1{
+    font-size: 10px;
+}
 .pt2{
     padding-top: 16px;
+}
+.mt2{
+    margin-top: 16px;
+   }
+.df{
+   display: flex;
+}
+.fs-l{
+    font-size: large;
 }
 
 main{
@@ -38,12 +51,7 @@ main{
     display: flex;
     justify-content: space-between;
 } 
-.mt2{
- margin-top: 16px;
-}
-.df{
-    display: flex;
-}
+
 .Languages{
     height: 100px;
 }
@@ -70,4 +78,27 @@ main{
 .pjdetail>ul>li>a{
     color: #0a12fb;
     margin-left: 5px;
+}
+
+@media (max-width:900px) {
+    .clg-name{
+        width: 60%;
+    }
+    .mt2 {
+        margin-top: 16px;
+    }
+    .pjdetail {
+        width: 100%;
+    }
+    .pjdetail>ul{
+        width: 90%;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:500px) {
+    main {
+        width: 100%;
+    }
 }
